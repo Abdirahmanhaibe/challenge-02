@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px auto 50px;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: black;
+    color: #fff;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+header nav {
+    justify-self: flex-end;
+}
+
+header nav {
+    text-decoration: none;
+}
+
+header nav a:first-child {
+    color: var rgb(255, 200, 0);
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 17px;
+}
+
+
+a:first-child {
+    color: rgb(255, 200, 0)
+}
+
+
+a:last-child {
+    color: orangered
+}
+
+.hero-banner {
+    display: grid;
+background-color: red;
+background-image: url(../imgs/london.jpg);
+background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    /* background-color: purple; */
+    /* background-color: #eee; */
+    padding: 10px;
+    /* border: 1px solid white; */
+    grid-template-columns: 50%;
+    height: 100%;
+}
+
+/*
+.grid-container > div {
+background: #ccc;
+border: 1px solid #777;
+
+}
+*/
+
+.page-wrapper {
+    display: grid;
+    background: #ccc;
+    border: 1px solid #fff;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.about-section {
+    grid-column: 1 / span 3;
+    border: 2px solid;
+    background-color: lightgreen;
+    height: fit-content;
+    align-self: flex-end;
+}
+
+img {
+    width: 30vw;
+
+}
+
+ajj
+
+.work-section {
+    grid-column: 1fr;
+    border: 2px solid;
+    
+    
+}
+
+
+
+
+.contact-section {
+    font-style: sans-serif;
+    display: grid;
+     grid-column: span 2; 
+    border: 2px solid black;
+    /* align-self: center; */
+    justify-content: center;
+    /* align-items: center; */
+    height: 189%;
+    background-color: darkcyan;
+    color: #fff;
+    margin-bottom: 39px;
+}
+
+.section 
+
+
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #25283D;
+    color: #fff;
+    display: grid;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+footer P:hover {
+    text-decoration: underline;
+
+}    
